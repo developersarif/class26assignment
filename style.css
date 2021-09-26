@@ -1,0 +1,190 @@
+/* banner css */
+body h1,h2,h3,h4,h5,h6{
+    font-family: 'Spartan', sans-serif;
+    
+}
+.banner{
+     padding: 70px 0;
+ }
+ .clients{}
+ .clients h6{
+    color: #3763EB;
+ }
+ .clients h3 {
+	position: relative;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+.clients h3::before {
+	content: "";
+	position: absolute;
+	top: 119px;
+	left: 0;
+	width: 45px;
+	height: 2px;
+	background-color: #3763EB;
+}
+ .clients p{}
+ .imag {
+	width: 33%;
+	height: 125px;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid rgba(0, 0, 0, 0.267) !important;
+	opacity: .5s;
+}
+.imag img {
+	/* padding: 15px 0; */
+	/* height: 133px; */
+	opacity: .5;
+	transition: .4s;
+}
+.imag:hover{
+    background: #F6F9FC;
+	opacity: 1;
+}
+
+
+
+
+
+/* banner end */
+
+
+
+.latest{
+  background: #ffffff;
+}
+.news{}
+.news h5 {
+	color: #A3B8F5;
+	font-size: 18px;
+}
+.news h1 {
+	font-size: 37px;
+	font-weight: 600;
+	position: relative;
+}
+.news h1::before {
+	content: "";
+	height: 3px;
+	width: 60px;
+	position: absolute;
+	top: 61px;
+	left: 529px;
+	background-color: #3763EB;
+}
+.news p {
+	color: #CFCCD4;
+	font-size: 22px;
+	margin: 40px 0;
+}
+img{
+    max-width: 100%;
+}
+.album img{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+}
+.photo{}
+.pic{
+   
+}
+.content {
+	padding: 5px 0;
+	position: relative;
+	top: -68px;
+	left: 152px;
+	background-color: #3763EB;
+	width: 191px;
+}
+.album {
+	margin-left: 10px;
+}
+.album img{}
+.tim {
+	margin-left: 14px;
+	color: #fff;
+	position: relative;
+	top: 8px;
+}
+.tim p{}
+.make{}
+.make h3 {
+	font-size: 17px;
+	font-weight: 600;
+	margin-bottom: 17px;
+	text-align: left !important;
+}
+.make p {
+	font-size: 14px;
+	color: #CDCBD2;
+	text-align: left;
+}
+/* footer css start */
+.footer{
+    background-color: #081828;
+}
+ .wrap{
+     width: 100px;
+ }
+ .para{}
+ .para p {
+	color: #fff;
+	margin: 30px 0;
+	line-height: 30px;
+}
+.social{}
+.social ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-left: -4px;
+}
+.social ul li {
+	display: inline-block;
+	margin-left: 20px;
+    
+}
+.social ul li a {
+	color: white;
+	display: inline-block;
+	
+}
+.social ul li a span {
+	font-size: 20px;
+}
+.footer-text h6 {
+	color: #fff;
+	font-size: 23px;
+	margin-left: 13px;
+	position: relative;
+}
+.footer-text h6::before {
+	content: "";
+	width: 3px;
+	height: 24px;
+	position: absolute;
+	top: 3px;
+	left: -12px;
+	background-color: #3763EB;
+}
+.services{}
+
+.services p{
+    color: #fff;
+}
+
+
+/* footer css end*/
+.footer-bottom{
+    background-color: #081828;
+    
+}
+.footer-bottom h6{
+    color: white;
+    text-align: center;
+    border-top: 1px solid #505B66;
+}
